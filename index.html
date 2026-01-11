@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dars-e-Nizami Haq</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Dars-e-Nizami Haq</h1>
+    <p>Advanced Islamic Learning Platform</p>
+</header>
+
+<section class="box">
+    <label>Select Organization</label>
+    <select id="board">
+        <option value="">Select</option>
+        <option>Tanzim-ul-Madaris Ahl-e-Sunnat Pakistan</option>
+        <option>Wafaq-ul-Madaris</option>
+        <option>Kanz-ul-Madaris</option>
+    </select>
+
+    <label>Select Class</label>
+    <select id="class">
+        <option value="">Select</option>
+        <option>Mutawassit Aam Awwal</option>
+        <option>Mutawassit Aam Duwam</option>
+        <option>Khaasah</option>
+        <option>Aaliyah Awwal</option>
+        <option>Aaliyah Duwam</option>
+        <option>Aalimiyah Awwal</option>
+        <option>Aalimiyah Duwam</option>
+    </select>
+
+    <label>Select Material</label>
+    <select id="material">
+        <option value="">Select</option>
+        <option>Books</option>
+        <option>Sharah</option>
+        <option>Notes</option>
+        <option>Past Papers</option>
+        <option>Guide</option>
+    </select>
+
+    <button onclick="showResult()">Search</button>
+</section>
+
+<section id="result"></section>
+
+<script src="script.js"></script>
+</body>
+</html>
